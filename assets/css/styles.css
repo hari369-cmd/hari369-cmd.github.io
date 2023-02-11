@@ -895,6 +895,11 @@ body.light-theme{
   .qualification__name{
     font-size: var(--small-font-size);
   }
+
+  .footer__list{
+    column-gap: .5rem;
+  }
+
 }
 
 /* For medium devices */
@@ -940,6 +945,10 @@ body.light-theme{
   .contact__info{
     grid-template-columns: 500px;
     justify-content: center;
+  }
+
+  .footer__list{
+    column-gap: 1.5rem;
   }
 }
 
