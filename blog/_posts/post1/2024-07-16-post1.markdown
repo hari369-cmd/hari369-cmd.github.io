@@ -1,0 +1,38 @@
+---
+layout: post
+title: Numerical Simulation of Particle Acceleration in Traveling Magnetic Field Thruster
+date: 2024-07-16
+categories: [publication]
+excerpt: "A brief summary of the publication."
+image: /assets/images/2024-07-16-post1/test.jpg # Path to the thumbnail image
+permalink: /post1
+---
+
+## Introduction
+
+Provide a brief introduction to the publication.
+
+## Main Findings
+
+Summarize the main findings of your publication in simple language.
+
+## Methods
+
+Briefly describe the methods used in the study.
+Here is an inline LaTeX equation: $$E = mc^2$$.
+
+And here is a display LaTeX equation:
+
+$$
+\int_{a}^{b} f(x) \, dx = F(b) - F(a)
+$$
+
+## Conclusion
+
+Summarize the conclusions and implications of your study.
+
+![Descriptive Image Caption](assets/images/2024-07-16-post1/test.jpg)
+
+## Further Reading
+
+Link to the full journal publication [here](URL_to_publication).
