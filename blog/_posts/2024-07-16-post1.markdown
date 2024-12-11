@@ -1,11 +1,9 @@
+
 ---
 layout: post
-title: Numerical Simulation of Particle Acceleration in Traveling Magnetic Field Thruster
-date: 2024-07-16
-categories: [publication]
-excerpt: "A brief summary of the publication."
-image: /assets/images/2024-07-16-post1/test.jpg # Path to the thumbnail image
-permalink: /post1
+title:  "Post 1"
+date:   2024-12-11
+categories: blog
 ---
 
 ## Introduction
