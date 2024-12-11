@@ -7,8 +7,7 @@ title: Blog
   {% for post in site.posts %}
     <li>
       <h2>
-        <!-- {{ post.url | relative_url }} -->
-        <a href="2024/07/16/post1/">{{ post.title }}</a>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
       </h2>
       <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
       {{ post.excerpt }}
