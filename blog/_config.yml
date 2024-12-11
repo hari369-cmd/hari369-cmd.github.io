@@ -26,6 +26,7 @@ email: kumar.harihara.sudhan.r7@alumni.dc.tohoku.ac.jp
 #  Google search results) and in your feed.xml site description.
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://hari369-cmd.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+permalink: /:year/:month/:day/:title/
 #twitter_username: jekyllrb
 #github_username:  jekyll
 
@@ -33,7 +34,6 @@ url: "https://hari369-cmd.github.io" # the base hostname & protocol for your sit
 theme: minima
 plugins:
   - jekyll-feed
-permalink: /:year/:month/:day/:title/
 
 # Exclude from processing.
 # The following items will not be processed, by default.
