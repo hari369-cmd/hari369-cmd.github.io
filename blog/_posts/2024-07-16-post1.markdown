@@ -3,7 +3,6 @@
 layout: post
 title:  "Post 1"
 date:   2024-12-11
-categories: blog
 ---
 
 ## Introduction
@@ -29,7 +28,7 @@ $$
 
 Summarize the conclusions and implications of your study.
 
-![Descriptive Image Caption](assets/images/2024-07-16-post1/test.jpg)
+![Descriptive Image Caption](/blog/assets/images/2024-07-16-post1/test.jpg)
 
 ## Further Reading
 
