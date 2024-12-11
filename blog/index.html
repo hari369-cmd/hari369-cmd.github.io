@@ -1,18 +1,18 @@
 ---
-layout: default
-title: Blog
+layout: home
 ---
+
+<!--
 <h1>Blog Posts</h1>
 <ul class="post-list">
   {% for post in site.posts %}
     <li>
       <h2>
-        <li>
-            <a href="{{ post.url | remove_first: '/blog' | relative_url }}">{{ post.title }}</a>
-        </li>
+        <a href="{{ post.url | remove_first: '/blog' | relative_url }}">{{ post.title }}</a>
       </h2>
       <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
       {{ post.excerpt }}
     </li>
   {% endfor %}
 </ul>
+-->
