@@ -8,9 +8,7 @@ title: Blog
     <li>
       <h2>
         <li>
-            Raw post.url: {{ post.url }}
-            After relative_url: {{ post.url | relative_url }}
-            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            <a href="{{ post.url | remove_first: '/blog' | relative_url }}">{{ post.title }}</a>
         </li>
       </h2>
       <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
