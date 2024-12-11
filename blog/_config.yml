@@ -33,6 +33,8 @@ url: "https://hari369-cmd.github.io" # the base hostname & protocol for your sit
 theme: minima
 plugins:
   - jekyll-feed
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
 
 # Exclude from processing.
 # The following items will not be processed, by default.
