@@ -37,6 +37,9 @@ plugins:
 sass:
   sass_dir: _sass
   style: compressed
+header_pages:
+  - about.markdown
+  - categories.html
 
 # Exclude from processing.
 # The following items will not be processed, by default.

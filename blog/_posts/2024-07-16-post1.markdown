@@ -3,6 +3,7 @@
 layout: post
 title:  "Post 1"
 date:   2024-12-11
+categories: [Research, Publications]
 ---
 
 ## Introduction
