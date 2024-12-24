@@ -322,7 +322,7 @@ body.light-theme{
 
 .home__img{
   width: 450px;
-  height: 400px;
+  height: 300px;
   border-radius: 1.5rem;
   justify-self: center;
 }
@@ -428,7 +428,7 @@ body.light-theme{
 }
 
 /*=============== ABOUT ===============*/
-.about_container{
+.about__container{
   row-gap: 2.5rem;
 }
 
@@ -441,13 +441,15 @@ body.light-theme{
 
 .about__data{
   text-align: center;
+  justify-content: center;
 }
 
 .about__info{
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: .5rem;
   margin-bottom: 2rem;
+  justify-content: center;
 }
 
 .about__box{
@@ -472,6 +474,7 @@ body.light-theme{
 
 .about__description{
   margin-bottom: 2rem;
+  width: 250px;
 }
 
 /*=============== SKILLS ===============*/
@@ -725,7 +728,8 @@ body.light-theme{
 /* Swiper class */
 .publications__container .swiper-slide{
   overflow:visible;
-  height: 600px;
+  height: 800px;
+  width: 800px;
   margin-left: .2rem;
   margin-bottom: 4.5rem;
   margin-top: .2rem;
@@ -881,7 +885,7 @@ body.light-theme{
   }
 
   .about__info{
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .skills__info{
@@ -918,19 +922,20 @@ body.light-theme{
     gap: 3rem;
   }
   .home__img{
-    width: 450px;
-    height: 400px;
+    width: 650px;
+    height: 500px;
     border-radius: 1.5rem;
     justify-self: center;
   }
 
   .about__info{
-    grid-template-columns: repeat(3, 140px);
+    grid-template-columns: repeat(4, 140px);
     justify-content: center;
   }
 
   .about__description{
-    padding: 0 5rem;
+    width: 800px;
+    justify-self: center;
   }
 
   .skills__container{
@@ -985,7 +990,7 @@ body.light-theme{
   }
 
   .about__container{
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     align-items: center;
     column-gap: 4rem;
   }
@@ -994,19 +999,19 @@ body.light-theme{
     width: 330px;
   }
   .about__info{
-    justify-content: initial;
+    justify-content: center;
   }
   .about__box{
     text-align: center;
   }
   .about__description{
-    padding: 0 4rem 0 0;
-    margin-bottom: 2.5rem;
+    width: 800px;
+    justify-self: center;
   }
 
   .skills__container{
-    grid-template-columns: repeat(2, max-content);
-    column-gap: 12rem;
+    grid-template-columns: repeat(3, max-content);
+    column-gap: 6rem;
   }
 
   .qualification__container{
