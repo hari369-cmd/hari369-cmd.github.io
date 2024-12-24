@@ -35,7 +35,9 @@ const execute = function executeCommand(input) {
     clearScreen();
   } else if (input === "history") {
     showHist();
-  } else if (input === "gui" || input === "topics") {
+  } else if (input === "gui") {
+    open("https://hari369-cmd.github.io/blog/");
+  } else if (input === "topics") {
     output = `<div class="terminal-line"><span class="success">➜</span> <span class="directory">~</span> ${input}</div>`;
     output += `<div class="terminal-line">command under construction: ${input}</div>`;
     terminalOutput.innerHTML = `${terminalOutput.innerHTML}<br><div class="terminal-line">${output}<br></div>`;
