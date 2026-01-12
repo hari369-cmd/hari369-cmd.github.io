@@ -1,938 +1,582 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <!--=============== FAVICON ===============-->
-        <!--<link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">-->
-
-        <!--=============== BOXICONS ===============-->
-        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
-        <!--=============== SWIPER CSS ===============-->
-        <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
-
-        <!--=============== CSS ===============-->
-        <link rel="stylesheet" href="./assets/css/styles.css">
-
-        <title> Hari </title>
-    </head>
-    <body>
-        <!--=============== HEADER ===============-->
-        <header class="header" id="header">
-          <nav class="nav container">
-            <a href="#" class="nav__logo">Hari</a>
-
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--=============== BOXICONS ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    <!--=============== FONTS ===============-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Space+Mono:wght@400;700&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    
+    <title>Harihara Sudhan Kumar - Simulation Engineer</title>
+</head>
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">HK</a>
+            
             <div class="nav__menu">
-              <ul class="nav__list">
-                <li class="nav__item">
-                  <a href="#home" class="nav__link active-link">
-                    <i class='bx bx-home-alt-2'></i>
-                  </a>
-                </li>
-
-                <li class="nav__item">
-                  <a href="#about" class="nav__link">
-                    <i class='bx bxs-face'></i>
-                  </a>
-                </li>
-
-                <li class="nav__item">
-                  <a href="#skills" class="nav__link">
-                    <i class='bx bx-book' ></i>
-                  </a>
-                </li>
-
-                <li class="nav__item">
-                  <a href="#qualification" class="nav__link">
-                    <i class='bx bx-briefcase' ></i>
-                  </a>
-                </li>
-
-                <li class="nav__item">
-                  <a href="#publications" class="nav__link">
-                    <i class='bx bx-file' ></i>
-                  </a>
-                </li>
-
-                <li class="nav__item">
-                  <a href="#contact" class="nav__link">
-                    <i class='bx bx-message-rounded'></i>
-                  </a>
-                </li>
-              </ul>
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link" data-i18n="nav.home">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#work" class="nav__link" data-i18n="nav.work">Work</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link" data-i18n="nav.projects">Projects</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#publications" class="nav__link" data-i18n="nav.research">Research</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link" data-i18n="nav.contact">Contact</a>
+                    </li>
+                </ul>
             </div>
-
-            <!-- Theme change button -->
-            <i class='bx bx-moon change-theme' id="theme-button"></i>
-          </nav>
-        </header>
-
-        <!--=============== MAIN ===============-->
-        <main class="main">
-            <!--=============== HOME ===============-->
-            <section class="home section" id="home">
-              <div class="home__container container grid">
-                <div class="home__data">
-                  <span class="home__greeting">Hello, I'm</span>
-                  <h1 class="home__name">Hari</h1>
-                  <h3 class="home__education">I like creating mathematical models</h3>
-
-                  <div class="home__buttons">
-                    <a download="" href="./assets/pdf/Hari_CV.pdf" class="button button--ghost">
-                      Download my CV
-                    </a>
-                    <a href="#about" class="button">About me</a>
-                  </div>
-                </div>
-
-                <div class="home__handle">
-                  <img src="./assets/img/hari.jpg" alt="" class="home__img">
-                </div>
-
-                <div class="home__social">
-                  <a href="https://www.linkedin.com/in/harihara-sudhan369/" class="home__social-link">
-                    <i class='bx bxl-linkedin' ></i>
-                  </a>
-                  <a href="https://orcid.org/0000-0003-3135-0428" class="home__social-link">
-                    <img src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png">
-                  </a>
-                </div>
-
-                <a href="#about" class="home__scroll">
-                  <i class='bx bxs-chevrons-down home__scroll-icon'></i>
-                  <span class="home__scroll-name">Scroll Down</span>
-                </a>
-              </div>
-            </section>
-
-            <!--=============== ABOUT ===============-->
-            <section class="about" id="about">
-              <!--<span class="section__subtitle">My Intro</span>-->
-              <!--<h2 class="section__title">About Me</h2>-->
-
-              <div class="about__container container grid">
-                <!--<img src="./assets/img/hari1.jpg" alt="" class="about__img">-->
-
-                <div class="about__data">
-                  <div class="about__info">
-                    <div class="about__box">
-                      <i class='bx bx-atom about__icon'></i>
-                      <h3 class="about__title">Field Interest</h3>
-                      <span class="about__subtitle">Plasma Physics <br>
-                        HED Physics <br>
-                        Mathematical Physics
-                      </span>
-                    </div>
-
-                    <div class="about__box">
-                      <i class='bx bx-heart about__icon'></i>
-                      <h3 class="about__title">Personal Interest</h3>
-                      <span class="about__subtitle">Programming <br>
-                        Startups <br>
-                        Mathematical art
-                      </span>
-                    </div>
-
-                    <div class="about__box">
-                      <i class='bx bx-file about__icon'></i>
-                      <h3 class="about__title">Completed</h3>
-                      <span class="about__subtitle">7 Papers<br>
-                        5 Conferences
-                      </span>
-                    </div>
-
-                    <div class="about__box">
-                      <i class='bx bx-certification about__icon'></i>
-                      <h3 class="about__title">Expertise</h3>
-                      <span class="about__subtitle">Theory <br>
-                      Simulation</span>
-                    </div>
-                  </div>
-
-                  <p class="about__description">
-                    I'm fascinated by nature and computational machines. I have combined them by simulating
-                    nature with computational machines. A quick learner with deep experience in theoretical, computational,
-                    and experimental physics. Always up for solving a challenging problem.
-                  </p>
-
-                  <a href="#contact" class="button">Contact Me</a>
-                  <a href="https://hari369-cmd.github.io/blog/" class="button">Blog >_</a>
-                </div>
-              </div>
-            </section>
-
-            <!--=============== SKILLS ===============-->
-            <section class="skills section" id="skills">
-              <h2 class="section__title">Skills</h2>
-
-              <div class="skills__container container grid section__border">
-              <!--====================== SKILLS 1 =========================-->
-                <div class="skils__content">
-                  <h3 class="skills__title">
-                    <i class='bx bx-code'></i> Programming
-                  </h3>
-
-                  <div class="skills__info">
-                    <div class="skills__data">
-                      <div class="skills__blob">
-                        <img src="./assets/img/cpp.png" alt="skills image">
-                      </div>
-
-                      <h3 class="skills__name">C++</h3>
-                      <span class="skills__subtitle">Advanced</span>
-                    </div>
-
-                    <div class="skills__data">
-                      <div class="skills__blob">
-                        <img src="./assets/img/python.svg" alt="skills image">
-                      </div>
-
-                      <h3 class="skills__name">Python</h3>
-                      <span class="skills__subtitle">Advanced</span>
-                    </div>
-
-                    <div class="skills__data">
-                      <div class="skills__blob">
-                        <img src="./assets/img/openmpi.png" alt="skills image">
-                      </div>
-
-                      <h3 class="skills__name">OpenMPI</h3>
-                      <span class="skills__subtitle">Intermediate</span>
-                    </div>
-
-                    <div class="skills__data">
-                      <div class="skills__blob">
-                        <img src="./assets/img/matlab.svg" alt="skills image">
-                      </div>
-
-                      <h3 class="skills__name">MatLab</h3>
-                      <span class="skills__subtitle">Intermediate</span>
-                    </div>
-
-                    <div class="skills__data">
-                      <div class="skills__blob">
-                        <img src="./assets/img/html.svg" alt="skills image">
-                      </div>
-
-                      <h3 class="skills__name">HTML</h3>
-                      <span class="skills__subtitle">Intermediate</span>
-                    </div>
-
-                    <div class="skills__data">
-                      <div class="skills__blob">
-                        <img src="./assets/img/css.svg" alt="skills image">
-                      </div>
-
-                      <h3 class="skills__name">CSS</h3>
-                      <span class="skills__subtitle">Intermediate</span>
-                    </div>
-
-                    <div class="skills__data">
-                      <div class="skills__blob">
-                        <img src="./assets/img/js.png" alt="skills image">
-                      </div>
-
-                      <h3 class="skills__name">Javascript</h3>
-                      <span class="skills__subtitle">Intermediate</span>
-                    </div>
-
-                    <div class="skills__data">
-                      <div class="skills__blob">
-                        <img src="./assets/img/fortran.png" alt="skills image">
-                      </div>
-  
-                      <h3 class="skills__name">Fortran</h3>
-                      <span class="skills__subtitle">Basic</span>
-                    </div>
-                  </div>
-                </div>
-              <!--====================== SKILLS 1 =========================-->
-
-              <!--====================== SKILLS 2 =========================-->
-              <div class="skils__content">
-                <h3 class="skills__title">
-                  <i class='bx bx-code-block'></i> Frameworks/Tools
-                </h3>
-
-                <div class="skills__info">
-                  <div class="skills__data">
-                    <div class="skills__blob">
-                      <img src="./assets/img/qt.png" alt="skills image">
-                    </div>
-
-                    <h3 class="skills__name">Qt C++</h3>
-                    <span class="skills__subtitle">Advanced</span>
-                  </div>
-
-                  <div class="skills__data">
-                    <div class="skills__blob">
-                      <img src="./assets/img/nuxt.png" alt="skills image">
-                    </div>
-
-                    <h3 class="skills__name">Nuxt JS</h3>
-                    <span class="skills__subtitle">Advanced</span>
-                  </div>
-
-                  <div class="skills__data">
-                    <div class="skills__blob">
-                      <img src="./assets/img/fastapi.svg" alt="skills image">
-                    </div>
-
-                    <h3 class="skills__name">FastAPI</h3>
-                    <span class="skills__subtitle">Intermediate</span>
-                  </div>
-
-                  <div class="skills__data">
-                    <div class="skills__blob">
-                      <img src="./assets/img/psql.png" alt="skills image">
-                    </div>
-
-                    <h3 class="skills__name">PostgreSQL</h3>
-                    <span class="skills__subtitle">Intermediate</span>
-                  </div>
-
-                  <div class="skills__data">
-                    <div class="skills__blob">
-                      <img src="./assets/img/docker.png" alt="skills image">
-                    </div>
-
-                    <h3 class="skills__name">Docker</h3>
-                    <span class="skills__subtitle">Intermediate</span>
-                  </div>
-
-                  <div class="skills__data">
-                    <div class="skills__blob">
-                      <img src="./assets/img/git.png" alt="skills image">
-                    </div>
-
-                    <h3 class="skills__name">git</h3>
-                    <span class="skills__subtitle">Intermediate</span>
-                  </div>
-                </div>
-              </div>
-            <!--====================== SKILLS 2 =========================-->
-
-              <!--====================== SKILLS 3 =========================-->
-                <div class="skills__content">
-                  <h3 class="skills__title">
-                    <i class='bx bx-bracket'></i> Field Specific
-                  </h3>
-
-                  <div class="skills__info">
-                    <div class="skills__data">
-                      <div class="skills__blob">
-                        <img src="./assets/img/pic.svg" alt="skills image">
-                      </div>
-
-                      <h3 class="skills__name">Particle</br>-in-</br>Cell</h3>
-                      <span class="skills__subtitle">Advanced</span>
-                    </div>
-
-                    <div class="skills__data">
-                      <div class="skills__blob">
-                        <img src="./assets/img/fluid.svg" alt="skills image">
-                      </div>
-
-                      <h3 class="skills__name">Plasma Fluid</br>Simulation</h3>
-                      <span class="skills__subtitle">Advanced</span>
-                    </div>
-
-                    <div class="skills__data">
-                      <div class="skills__blob">
-                        <img src="./assets/img/md.svg" alt="skills image">
-                      </div>
-
-                      <h3 class="skills__name">Molecular</br>Dynamics</h3>
-                      <span class="skills__subtitle">Intermediate</span>
-                    </div>
-
-                    <div class="skills__data">
-                      <div class="skills__blob">
-                        <img src="./assets/img/pert.svg" alt="skills image">
-                      </div>
-
-                      <h3 class="skills__name">Perturbation/</br>Wave Theory</h3>
-                      <span class="skills__subtitle">Intermediate</span>
-                    </div>
-
-                    <div class="skills__data">
-                      <div class="skills__blob">
-                        <img src="./assets/img/bdot.svg" alt="skills image">
-                      </div>
-
-                      <h3 class="skills__name">Laser Diag.:</br>B Dot</h3>
-                      <span class="skills__subtitle">Basic</span>
-                    </div>
-
-                    <div class="skills__data">
-                      <div class="skills__blob">
-                        <img src="./assets/img/tp.svg" alt="skills image">
-                      </div>
-
-                      <h3 class="skills__name">Laser Diag.:</br>Thomson</br>Parabola</h3>
-                      <span class="skills__subtitle">Basic</span>
-                    </div>
-
-                  </div>
-                </div>
-              <!--====================== SKILLS 3 =========================-->
-              </div>
-            </section>
-
-            <!--=============== QUALIFICATION ===============-->
-            <section class="qualification section" id="qualification">
-              <h2 class="section__title">Qualifications</h2>
-              <!--<span class="section__subtitle">Experience & Education</span>-->
-
-              <div class="qualification__container container grid section__border">
-                <!--====================== QUALIFICATION 1 =========================-->
-                <div class="qualification__content">
-                  <h3 class="qualification__title">
-                    <i class='bx bx-book-open'></i> Education
-                  </h3>
-
-                  <div class="qualification__info">
-                    <div>
-                      <h3 class="qualification__name">
-                        PhD In Aerospace Engineering
-                      </h3>
-                      <span class="qualification__country">Tohoku University, Japan</span>
-                      <span class="qualification__gpa"> GPA: 3.8/4.0</span>
-                      <span class="qualification__year">2020 - 2023 (Expected)</span>
-                    </div>
-
-                    <div>
-                      <h3 class="qualification__name">
-                        M.Sc in Aerospace Engineering
-                      </h3>
-                      <span class="qualification__country">Tohoku University, Japan</span>
-                      <span class="qualification__gpa">GPA: 3.2/4.0</span>
-                      <span class="qualification__year">2018 - 2020</span>
-                    </div>
-
-                    <div>
-                      <h3 class="qualification__name">
-                        B.Tech in Aerospace Engineering
-                      </h3>
-                      <span class="qualification__country">Amrita University, India</span>
-                      <span class="qualification__gpa">GPA: 3.1/4.0</span>
-                      <span class="qualification__year">2013 - 2017</span>
-                    </div>
-                  </div>
-                </div>
-
-                <!--====================== QUALIFICATION 2 =========================-->
-                <div class="qualification__content">
-                  <h3 class="qualification__title">
-                    <i class='bx bx-briefcase-alt-2'></i> Experience
-                  </h3>
-
-                  <div class="qualification__info">
-                    <div>
-                      <h3 class="qualification__name">
-                        Simulation Engineer
-                      </h3>
-                      <span class="qualification__country">JSOL Corporation, Tokyo, Japan</span>
-                      <span class="qualification__year"> 2023/4 - current</span>
-                    </div>
-
-                    <div>
-                      <h3 class="qualification__name">
-                        JSPS Postdoc Researcher
-                      </h3>
-                      <span class="qualification__country">Tohoku University, Sendai, Japan</span>
-                      <span class="qualification__year"> 2023/10 - 2024/3</span>
-                    </div>
-
-                    <div>
-                      <h3 class="qualification__name">
-                        Undergraduate Mentor
-                      </h3>
-                      <span class="qualification__country">Tohoku University, Japan</span>
-                      <span class="qualification__year"> 2020 - 2024</span>
-                    </div>
-
-                    <div>
-                      <h3 class="qualification__name">
-                        Student Research Assistant
-                      </h3>
-                      <span class="qualification__country">Amrita University, India</span>
-                      <span class="qualification__year"> 2015 - 2017</span>
-                    </div>
-                  </div>
-                </div>
-
-            <!--=============== HONORS & AWARDS ===============-->
-            <!--====================== QUALIFICATION 1 =========================-->
-                <div class="qualification__content">
-                  <h3 class="qualification__title">
-                    <i class='bx bx-award'></i> Awards
-                  </h3>
-
-                  <div class="qualification__info">
-                    <div>
-                      <h3 class="qualification__name">
-                        JSPS Research Fellowship
-                      </h3>
-                      <span class="qualification__country">Japan</span>
-                      <span class="qualification__issued">Issued by Japan Society for the Promotion of Science</span>
-                      <span class="qualification__year"> 2022 - 2024 </span>
-                    </div>
-
-                    <div>
-                      <h3 class="qualification__name">
-                        MEXT Scholarship
-                      </h3>
-                      <span class="qualification__country">Japan</span>
-                      <span class="qualification__issued">Issued by Japanese Ministry of Education,
-                        Culture, Sports, Science and Technology</span>
-                      <span class="qualification__year"> 2017 - 2022 </span>
-                    </div>
-
-                    <div>
-                      <h3 class="qualification__name">
-                        Winner of One-Size-Fits-All:
-                        X-ray Plate Adapter Challenge
-                      </h3>
-                      <span class="qualification__country">U.S.A/India</span>
-                      <span class="qualification__issued">Issued by General Electric Oil & Gas</span>
-                      <span class="qualification__year">2017</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-
-            <!--=============== PUBLICATIONS ===============-->
-            <section class="publications section" id="publications">
-              <h2 class="section__title">Publications</h2>
-              <!--<span class="section__subtitle">Journals/Conferences</span>-->
-
-              <div class="container section__border">
-                <div class="publications__container swiper">
-                  <div class="swiper-wrapper swiper-slide">
-
-                    <!--=============== PUBLICATION ===============-->
-                    <div class="publications__content swiper-slide">
-                      <!--img src="" alt="">-->
-
-                      <span class="publications__subtitle">2024 | Publication | Scientific Reports |</span>
-                        <h1 class="publications__title">
-                          Integrating sheath and radiation-based acceleration using scaling 
-                          coefficients for tailoring radiation dominant hybrid acceleration
-                        </h1></br>
-                          <h3 class="publications__authors">Kumar H S, Takahashi M, Kuramitsu Y, and Ohnishi N</h3>
-
-                        <span class="publications__button">
-                          Read abstract <i class='bx bx-right-arrow-alt'></i>
-                        </span>
-
-                        <div class="publications__model">
-                          <div class="publications__model-content">
-                            <i class='bx bx-x publications__model-close'></i>
-
-                            <h3 class="publications__model-title">Abstract</h3>
-                            <p class="publications__model-description">
-                              An optimal target condition for generating GeV-energy ions with linearly polarized laser pulse is 
-                              revealed by a hybrid acceleration theory based on the fractional contributions of the target normal 
-                              sheath acceleration (TNSA) and the radiation pressure acceleration (RPA) mechanisms in the RPA-dominant regime. 
-                              The theory is established with two scaling coefficients, which scale the TNSA and RPA velocities, and are 
-                              sophisticated through two-dimensional particle-in-cell simulations where GeV-energy ions are obtained by 
-                              RPA-dominant hybrid acceleration. By imposing limits on the scaling coefficients, three separate acceleration 
-                              regions are obtained including a RPA-dominant acceleration region, which is optimal to generate GeV-energy ions. 
-                              The past experiment/simulation results are in good agreement with the acceleration regions obtained. 
-                              This RPA-dominant region is narrower than previously reported, and this region becomes even narrower with 
-                              increasing material density.
-                              </br>
-                              <a href="https://www.nature.com/articles/s41598-024-72623-5">https://www.nature.com/articles/s41598-024-72623-5</a>
-                            </p>
-                          </div>
+            
+            <div class="nav__controls">
+                <button class="lang-toggle" id="lang-button" aria-label="Toggle Language">
+                    <span class="lang-toggle__text">JP</span>
+                </button>
+                <i class='bx bx-moon change-theme' id="theme-button"></i>
+            </div>
+        </nav>
+    </header>
+    
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        <!--=============== HOME ===============-->
+        <section class="home section" id="home">
+            <div class="home__container container">
+                <div class="home__profile">
+                    <div class="home__profile-border">
+                        <div class="home__profile-image">
+                            <img src="./assets/img/hari.jpg" alt="Hari Kumar" class="home__img">
                         </div>
                     </div>
-
-                    <!--=============== PUBLICATION ===============-->
-                    <div class="publications__content swiper-slide">
-                      <!--img src="" alt="">-->
-
-                      <span class="publications__subtitle">2024 | Publication | High Energy Density Physics |</span>
-                        <h1 class="publications__title">
-                          A hybrid simulation integrating molecular dynamics and 
-                          particle-in-cell methods for improved laser-target interaction
-                        </h1></br>
-                          <h3 class="publications__authors">Kumar H S, Takahashi M, Kuramitsu Y, Minami T, Kiriyama H, Fukuda Y, and Ohnishi N</h3>
-
-                        <span class="publications__button">
-                          Read abstract <i class='bx bx-right-arrow-alt'></i>
-                        </span>
-
-                        <div class="publications__model">
-                          <div class="publications__model-content">
-                            <i class='bx bx-x publications__model-close'></i>
-
-                            <h3 class="publications__model-title">Abstract</h3>
-                            <p class="publications__model-description">
-                              Ultra-thin targets (less than 10 nm), such as graphene, can be irradiated with relativistic intensity 
-                              lasers to generate energetic ions. However, the laser prepulse can prematurely destroy these targets and 
-                              significantly influence the final ion energies. Due to the limitations of the conventional hydrodynamic model, 
-                              simulating the interaction between ultra-thin targets and a prepulse is infeasible. To overcome this issue, 
-                              we propose a hybrid simulation technique in this study. This technique involves simulating the target-prepulse 
-                              interaction using molecular dynamics (MD) simulation, which is then combined with the particle-in-cell 
-                              simulation for the target-main pulse interaction, in order to accurately model the entire laser-target 
-                              interaction dynamics. A realistic, experimentally measured laser intensity profile for the prepulse is used 
-                              for the MD simulation, and the particle energies from this hybrid simulation are found to be in good agreement 
-                              with the experiment.
-                              </br>
-                              <a href="https://www.sciencedirect.com/science/article/abs/pii/S1574181824000739">https://www.sciencedirect.com/science/article/abs/pii/S1574181824000739</a>
-                            </p>
-                          </div>
+                </div>
+                
+                <div class="home__content">
+                    <span class="home__greeting" data-i18n="home.greeting">Hello, I'm</span>
+                    <h1 class="home__name">Hari</h1>
+                    <h2 class="home__tagline" data-i18n="home.tagline">I like creating mathematical models</h2>
+                    <p class="home__description" data-i18n="home.description">
+                        Simulation engineer building HPC performance simulators, developing computational physics models, 
+                        and creating web applications. I bridge the worlds of theoretical physics, 
+                        high-performance computing, and full-stack development.
+                    </p>
+                    
+                    <div class="home__buttons">
+                        <a href="#work" class="button" data-i18n="home.viewWork">View Work</a>
+                        <a href="#projects" class="button button--ghost" data-i18n="home.projects">Projects</a>
+                        <a href="https://hari369-cmd.github.io/blog/" class="button button--text" target="_blank">
+                            <span data-i18n="home.blog">Read Blog</span> <i class='bx bx-right-arrow-alt'></i>
+                        </a>
+                    </div>
+                    
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/harihara-sudhan369/" class="home__social-link" target="_blank" aria-label="LinkedIn">
+                            <i class='bx bxl-linkedin'></i>
+                        </a>
+                        <a href="https://github.com/hari369-cmd" class="home__social-link" target="_blank" aria-label="GitHub">
+                            <i class='bx bxl-github'></i>
+                        </a>
+                        <a href="https://orcid.org/0000-0003-3135-0428" class="home__social-link" target="_blank" aria-label="ORCID">
+                            <img src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" alt="ORCID">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!--=============== WORK EXPERIENCE ===============-->
+        <section class="work section" id="work">
+            <div class="container">
+                <h2 class="section__title" data-i18n="work.title">My Professional Experience</h2>
+                <p class="section__description" data-i18n="work.subtitle">
+                    From theoretical plasma physics to production HPC systems
+                </p>
+                
+                <div class="work__container">
+                    <div class="work__card">
+                        <div class="work__header">
+                            <h3 class="work__title" data-i18n="work.job1.title">HPC Performance Simulator Development</h3>
+                            <span class="work__date">JSOL Corporation · 2024 - <span data-i18n="work.present">Present</span></span>
+                        </div>
+                        <p class="work__description" data-i18n="work.job1.description">
+                            Designed and developed a performance simulation framework to analyze interactions between 
+                            CAE software (50+ computational modules) and HPC systems. Built mathematical models to 
+                            quantitatively evaluate execution performance, scalability, and bottlenecks.
+                        </p>
+                        <div class="work__tags">
+                            <span class="tag">C++</span>
+                            <span class="tag">Qt</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">HPC</span>
+                        </div>
+                        <div class="work__results">
+                            <i class='bx bx-check-circle'></i>
+                            <span data-i18n="work.job1.result1">Identified performance issues for major automotive client</span>
+                        </div>
+                        <div class="work__results">
+                            <i class='bx bx-check-circle'></i>
+                            <span data-i18n="work.job1.result2">Reduced AWS costs by millions of yen and saved months of debugging effort</span>
                         </div>
                     </div>
-
-                    <!--=============== PUBLICATION ===============-->
-                    <div class="publications__content swiper-slide">
-                      <!--img src="" alt="">-->
-
-                      <span class="publications__subtitle">2024 | Publication | Chaos |</span>
-                        <h1 class="publications__title">
+                    
+                    <div class="work__card">
+                        <div class="work__header">
+                            <h3 class="work__title" data-i18n="work.job2.title">Multi-Scale Plasma Simulation Research</h3>
+                            <span class="work__date">Tohoku University · JSPS Fellow · 2022 - 2024</span>
+                        </div>
+                        <p class="work__description" data-i18n="work.job2.description">
+                            Developed novel numerical methods integrating molecular dynamics and plasma dynamics 
+                            simulations to model laser-graphene interactions. Conducted large-scale HPC computations 
+                            and validated results with experimental data.
+                        </p>
+                        <div class="work__tags">
+                            <span class="tag">C++</span>
+                            <span class="tag">FORTRAN</span>
+                            <span class="tag">MPI</span>
+                            <span class="tag">Python</span>
+                        </div>
+                        <div class="work__results">
+                            <i class='bx bx-check-circle'></i>
+                            <span data-i18n="work.job2.result1">Published in Scientific Reports and other international journals</span>
+                        </div>
+                        <div class="work__results">
+                            <i class='bx bx-check-circle'></i>
+                            <span data-i18n="work.job2.result2">Supervised 3 undergraduate and 1 graduate student researchers</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!--=============== PROJECTS ===============-->
+        <section class="projects section" id="projects">
+            <div class="container">
+                <h2 class="section__title" data-i18n="projects.title">Featured Projects</h2>
+                
+                <div class="projects__container">
+                    <!-- Slotify - Featured -->
+                    <div class="project__card project__card--featured">
+                        <div class="project__badge" data-i18n="projects.featured">Featured</div>
+                        <div class="project__content">
+                            <h3 class="project__title">Slotify</h3>
+                            <p class="project__subtitle" data-i18n="projects.slotify.subtitle">Web Service for Smart Scheduling</p>
+                            <p class="project__description" data-i18n="projects.slotify.description">
+                                A full-stack web application I designed, developed, and launched to help users 
+                                manage their time efficiently. Handles the complete product lifecycle from 
+                                planning to deployment and user support.
+                            </p>
+                            
+                            <div class="project__stats">
+                                <div class="stat">
+                                    <i class='bx bx-user'></i>
+                                    <span data-i18n="projects.slotify.users">~2,000 monthly active users</span>
+                                </div>
+                                <div class="stat">
+                                    <i class='bx bx-line-chart'></i>
+                                    <span data-i18n="projects.slotify.improvements">Continuous feature improvements based on user analytics</span>
+                                </div>
+                            </div>
+                            
+                            <div class="project__tags">
+                                <span class="tag">Full-Stack</span>
+                                <span class="tag" data-i18n="projects.slotify.tag2">Product Design</span>
+                                <span class="tag" data-i18n="projects.slotify.tag3">Business Management</span>
+                            </div>
+                            
+                            <div class="project__links">
+                                <a href="http://www.sloti-fy.com" class="button" target="_blank">
+                                    <span data-i18n="projects.slotify.visit">Visit Site</span> <i class='bx bx-right-arrow-alt'></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Additional Projects -->
+                    <div class="project__card">
+                        <h3 class="project__title" data-i18n="projects.hpc.title">HPC Performance Modeling</h3>
+                        <p class="project__description" data-i18n="projects.hpc.description">
+                            Mathematical models for predicting CAE software performance on various HPC 
+                            architectures. Includes communication pattern analysis and scalability evaluation.
+                        </p>
+                        <div class="project__tags">
+                            <span class="tag">C++</span>
+                            <span class="tag" data-i18n="projects.hpc.tag2">Performance Analysis</span>
+                        </div>
+                    </div>
+                    
+                    <div class="project__card">
+                        <h3 class="project__title" data-i18n="projects.plasma.title">Plasma-MD Coupling Framework</h3>
+                        <p class="project__description" data-i18n="projects.plasma.description">
+                            Integrated simulation framework combining molecular dynamics with plasma dynamics 
+                            for multi-scale physics modeling on HPC clusters.
+                        </p>
+                        <div class="project__tags">
+                            <span class="tag">C++ / FORTRAN</span>
+                            <span class="tag">MPI</span>
+                            <span class="tag" data-i18n="projects.plasma.tag3">Scientific Computing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!--=============== SKILLS ===============-->
+        <section class="skills section">
+            <div class="container">
+                <h2 class="section__title" data-i18n="skills.title">Technical Expertise</h2>
+                
+                <div class="skills__container">
+                    <div class="skills__group">
+                        <h3 class="skills__group-title" data-i18n="skills.core.title">Core Skills</h3>
+                        <div class="skills__list">
+                            <span class="skill__item" data-i18n="skills.core.skill1">Numerical Simulation</span>
+                            <span class="skill__item" data-i18n="skills.core.skill2">Mathematical Modeling</span>
+                            <span class="skill__item" data-i18n="skills.core.skill3">Algorithm Design</span>
+                            <span class="skill__item" data-i18n="skills.core.skill4">Performance Analysis</span>
+                            <span class="skill__item" data-i18n="skills.core.skill5">HPC & Parallel Computing</span>
+                            <span class="skill__item" data-i18n="skills.core.skill6">Data Analysis & Visualization</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skills__group">
+                        <h3 class="skills__group-title" data-i18n="skills.programming.title">Programming</h3>
+                        <div class="skills__list">
+                            <span class="skill__item">C++ / FORTRAN90</span>
+                            <span class="skill__item">Python (NumPy, SciPy, Pandas)</span>
+                            <span class="skill__item">MPI (<span data-i18n="skills.programming.parallel">Parallel Computing</span>)</span>
+                            <span class="skill__item">Qt (<span data-i18n="skills.programming.gui">GUI Development</span>)</span>
+                            <span class="skill__item">HTML / CSS / JavaScript</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skills__group">
+                        <h3 class="skills__group-title" data-i18n="skills.tools.title">Software & Tools</h3>
+                        <div class="skills__list">
+                            <span class="skill__item">Ansys Fluent / Abaqus</span>
+                            <span class="skill__item">JMAG / HPC Systems</span>
+                            <span class="skill__item">MATLAB / Mathematica</span>
+                            <span class="skill__item">Windows / Linux / macOS</span>
+                            <span class="skill__item">Git / SVN / <span data-i18n="skills.tools.version">Version Control</span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!--=============== PUBLICATIONS ===============-->
+        <section class="publications section" id="publications">
+            <div class="container">
+                <h2 class="section__title" data-i18n="publications.title">Selected Publications</h2>
+                <p class="section__description" data-i18n="publications.subtitle">
+                    Research spanning plasma physics, high-energy density physics, and topological analysis
+                </p>
+                
+                <div class="publications__container">
+                    <div class="publication__card">
+                        <span class="publication__year">2024</span>
+                        <h3 class="publication__title">
+                            Integrating sheath and radiation-based acceleration using scaling coefficients for tailoring radiation dominant hybrid acceleration
+                        </h3>
+                        <p class="publication__authors">Kumar H S, Takahashi M, Kuramitsu Y, and Ohnishi N </p>
+                        <p class="publication__journal">Scientific Reports 14, 22531 (2024)</p>
+                        <a href="https://doi.org/10.1038/s41598-024-72623-5" class="publication__link" target="_blank">
+                            <span data-i18n="publications.view">View Paper</span> <i class='bx bx-link-external'></i>
+                        </a>
+                    </div>
+                    
+                    <div class="publication__card">
+                        <span class="publication__year">2024</span>
+                        <h3 class="publication__title">
                           Characterization of stability of dynamic particle ensemble systems using topological data analysis
-                        </h1></br>
-                          <h3 class="publications__authors">Kumar H S</h3>
-
-                        <span class="publications__button">
-                          Read abstract <i class='bx bx-right-arrow-alt'></i>
-                        </span>
-
-                        <div class="publications__model">
-                          <div class="publications__model-content">
-                            <i class='bx bx-x publications__model-close'></i>
-
-                            <h3 class="publications__model-title">Abstract</h3>
-                            <p class="publications__model-description">
-                              Holes are ubiquitous structures in phase space, and their time evolution could 
-                              indicate an instability in the dynamics of the system. However, the properties of these holes 
-                              are difficult to study directly due to their theoretical complexity and lack of computational tools. 
-                              This study proposes the use of persistent homology (PH), a technique from topological data analysis, 
-                              as a computational tool for analyzing the properties of these phase-space holes, or more formally the H1
-                              homology class according to PH. Initially, by using a toy data set, it is shown that the time evolution 
-                              and the growth rate of a H1 class in phase space could be obtained by PH. For further validation, PH is 
-                              applied to particle ensemble systems, such as the Hamiltonian flow and the two-stream instability (TSI). 
-                              Both the stable case, where no H1 forms, and the unstable case, where H1 forms, were analyzed. It was shown 
-                              that PH can distinguish between the stable and unstable cases purely from the phase-space time evolution plots. 
-                              In unstable TSI, the PH also distinguished the transition of the H1 class from linear to non-linear growth. 
-                              The growth rate, thus, obtained is in excellent agreement with the growth rate of the particle energy in the TSI system.
-                              </br>
-                              <a href="https://doi.org/10.1063/5.0177180">https://doi.org/10.1063/5.0177180</a>
-                            </p>
-                          </div>
-                        </div>
+                        </h3>
+                        <p class="publication__authors">Kumar H S</p>
+                        <p class="publication__journal">Chaos 34, 013119 (2024)</p>
+                        <a href="https://doi.org/10.1063/5.0177180" class="publication__link" target="_blank">
+                            <span data-i18n="publications.view">View Paper</span> <i class='bx bx-link-external'></i>
+                        </a>
                     </div>
-
-                    <!--=============== PUBLICATION 1 ===============-->
-                    <div class="publications__content swiper-slide">
-                      <!--img src="" alt="">-->
-
-                      <span class="publications__subtitle">2022 | Conference | HEDLA |</span>
-                        <h1 class="publications__title">A Coupling Simulation
-                          Integrating Molecular Dynamics and
-                          Particle-in-Cell Methods for Accurate
-                          Intense Laser-Target Simulations</h1></br>
-                          <h3 class="publications__authors">Kumar H S, Takahashi M, Kuramitsu Y, Minami T, and Ohnishi N</h3>
-
-                        <span class="publications__button">
-                          Read abstract <i class='bx bx-right-arrow-alt'></i>
-                        </span>
-
-                        <div class="publications__model">
-                          <div class="publications__model-content">
-                            <i class='bx bx-x publications__model-close'></i>
-
-                            <h3 class="publications__model-title">Abstract</h3>
-                            <p class="publications__model-description">
-                              The irradiation of an intense laser on thin targets generate energetic ions in experiments,
-                              which has also been replicated using particle-in-cell (PIC) simulations. However, the ion energies obtained
-                              in simulations are sometimes significantly higher than the experiments. This discrepancy
-                              was also noticed in a recent experiment involving the ultra-intense JKAREN laser (without plasma mirrors).
-                              In the corresponding PIC simulations, assumptions regarding the target expansion due to the pre-pulse had
-                              to be factored, as corrections, to obtain the experimental energies. Thus, modelling the pre-pulse is
-                              essential; but the conventional hydrodynamic pre-pulse simulations are not possible due to the ultra-thin
-                              nature of the targets. Currently, there exists no framework to successfully integrate the pre-pulse
-                              simulation with the main pulse, especially for thin targets, since the scales and the physics of the
-                              simulations involved are vastly different. In this study, we propose a coupling scheme to integrate the
-                              pre-pulse; simulated through the molecular dynamics (MD) approach, with the main pulse simulated using the
-                              PIC method. The intensity of the laser pre-pulse is usually < 1E+11 W/cm2, even for a laser like JKAREN
-                              (I = 1E+21 W/cm2) without plasma mirrors. In this regime, the atomic physics is dominant and hence the
-                              use of MD for pre-pulse simulation is reasonable. Following the experiment, a 3D graphene target was
-                              created in MD (using LAMMPS) and irradiated (energy deposition) by an experimentally obtained pre-pulse
-                              profile, leading to the target’s deformation. A section of the deformed target is then imported to the
-                              2D PIC environment (EPOCH) through a density interpolation scheme and is simulated for the main pulse
-                              conditions. The ion energy spectrum thus obtained is in good agreement with the experiment as compared
-                              to the previous results suggesting that the proposed method realistically captures the physics behind the
-                              experiment without assuming target pre-expansion.
-                              </br>
-                              <a href="https://hedla.tecnico.ulisboa.pt/documents/abstracts/7IcjwPeShQ.pdf">https://hedla.tecnico.ulisboa.pt/documents/abstracts/7IcjwPeShQ.pdf</a>
-                            </p>
-                          </div>
-                        </div>
+                    
+                    <div class="publication__card">
+                        <span class="publication__year">2024</span>
+                        <h3 class="publication__title">
+                            A hybrid simulation integrating molecular dynamics and particle-in-cell methods for improved laser-target interaction
+                        </h3>
+                        <p class="publication__authors">Kumar H S, Takahashi M, Kuramitsu Y, Kiriyama H, Fukuda Y, and Ohnishi N</p>
+                        <p class="publication__journal">High Energy Density Physics 53, 101148 (2024)</p>
+                        <a href="https://doi.org/10.1016/j.hedp.2024.101148" class="publication__link" target="_blank">
+                            <span data-i18n="publications.view">View Paper</span> <i class='bx bx-link-external'></i>
+                        </a>
                     </div>
-
-                    <!--=============== PUBLICATION 2 ===============-->
-                    <div class="publications__content swiper-slide">
-                      <!--img src="" alt="">-->
-
-                      <span class="publications__subtitle">2022 | Journal | Sci. Rep. |</span>
-                        <h1 class="publications__title">Robustness of Large-Area Suspended Graphene
-                          under Interaction with Intense Laser</h1></br>
-                          <h3 class="publications__authors">Kuramitsu Y, Minami T, ... Kumar H S, Ohnishi N, et al.</h3>
-
-                        <span class="publications__button">
-                          Read abstract <i class='bx bx-right-arrow-alt'></i>
-                        </span>
-
-                        <div class="publications__model">
-                          <div class="publications__model-content">
-                            <i class='bx bx-x publications__model-close'></i>
-
-                            <h3 class="publications__model-title">Abstract</h3>
-                            <p class="publications__model-description">
-                              Graphene is known as an atomically thin, transparent, highly electrically and thermally conductive,
-                              light-weight, and the strongest 2D material. We investigate disruptive application of graphene as a
-                              target of laser-driven ion acceleration. We develop large-area suspended graphene (LSG) and by
-                              transferring graphene layer by layer we control the thickness with precision down to a single
-                              atomic layer. Direct irradiations of the LSG targets generate MeV protons and carbons from
-                              sub-relativistic to relativistic laser intensities from low contrast to high contrast
-                              conditions without plasma mirror, evidently showing the durability of graphene.
-                              </br>
-                              <a href="https://doi.org/10.1038/s41598-022-06055-4">https://doi.org/10.1038/s41598-022-06055-4</a>
-                            </p>
-                          </div>
-                        </div>
+                    
+                    <div class="publication__more">
+                        <p data-i18n="publications.count">8 journal papers · 5 conference presentations</p>
+                        <a href="https://orcid.org/0000-0003-3135-0428" target="_blank" class="button button--ghost">
+                            <span data-i18n="publications.viewAll">View All Publications</span> <i class='bx bx-right-arrow-alt'></i>
+                        </a>
                     </div>
-
-                    <!--=============== PUBLICATION 3 ===============-->
-                    <div class="publications__content swiper-slide">
-                      <!--img src="" alt="">-->
-
-                      <span class="publications__subtitle">2021 | Journal | Appl. Phys. Lett. |</span>
-                        <h1 class="publications__title">Kinetic Theory of Double Layers Driven by Temperature Anisotropy
-                           in a Non-Homogeneous Magnetic Field</h1></br>
-                           <h3 class="publications__authors">Kumar H S, Takahashi M, Kato C, Oshio Y, and Ohnishi N</h3>
-
-                        <span class="publications__button">
-                          Read abstract <i class='bx bx-right-arrow-alt'></i>
-                        </span>
-
-                        <div class="publications__model">
-                          <div class="publications__model-content">
-                            <i class='bx bx-x publications__model-close'></i>
-
-                            <h3 class="publications__model-title">Abstract</h3>
-                            <p class="publications__model-description">
-                              A double layer (DL) is created in a plasma when the plasma is perturbed in the presence
-                              of a temperature anisotropy. We derive a new simple theory for the existence of an unstable,
-                              non-oscillatory electrostatic DL-like structure in the presence of a magnetic field gradient
-                              in a collisionless plasma with a temperature anisotropy in the direction perpendicular to the
-                              magnetic field. The DL is treated as a wave perturbation in the plasma using kinetic theory
-                              with a gyro-kinetic approximation to obtain a dispersion relation. The presence of an electron
-                              temperature anisotropy is the necessary condition to obtain an exponentially growing instability,
-                              and the corresponding growth rate is found to be the ratio of the electron kinetic energy and
-                              the electric field energy across the DL region. The theoretical predictions are then validated
-                              against a one-dimensional electrostatic particle simulation carried out in a traveling magnetic
-                              field thruster environment. An anisotropy ratio parameter was introduced, and the theoretical
-                              growth rates were found to be in good agreement with the simulation for different anisotropy ratios.
-                              An ion beam, associated with the DL dynamics, is observed within the simulation domain.
-                              A parametric study revealed that the DL-like structure loses its ambipolar shape for temperature
-                              ratios less than 10. It has been found that a stronger anisotropy is required to obtain the
-                              DL-like structure.
-                              </br>
-                              <a href="https://doi.org/10.1063/5.0065665">https://doi.org/10.1063/5.0065665</a>
-                            </p>
-                          </div>
-                        </div>
-                    </div>
-
-                    <!--=============== PUBLICATION 4 ===============-->
-                    <div class="publications__content swiper-slide">
-                      <!--img src="" alt="">-->
-
-                      <span class="publications__subtitle">2020 | Journal | Trans. JSASS Aerospace Tech. Japan |</span>
-                        <h1 class="publications__title">Numerical Simulation of Particle Acceleration in
-                          Traveling Magnetic Field Thruster</h1></br>
-                          <h3 class="publications__authors">Kumar H S, Takahashi M, and Ohnishi N</h3>
-
-                        <span class="publications__button">
-                          Read abstract <i class='bx bx-right-arrow-alt'></i>
-                        </span>
-
-                        <div class="publications__model">
-                          <div class="publications__model-content">
-                            <i class='bx bx-x publications__model-close'></i>
-
-                            <h3 class="publications__model-title">Abstract</h3>
-                            <p class="publications__model-description">
-                              A theoretical and numerical study has been conducted on an electrodeless thruster which uses
-                              a traveling magnetic field for effective thrust generation. The physics behind the thrust generation
-                              mechanism was studied theoretically, and the theory was validated by 1D electrostatic particle-in-cell
-                              simulations. The thrust generation was found to be due to the formation of a Double Layer (DL). The
-                              magnetic pulse pushes the electrons in the magnetic front forming a small charge separation. The localized
-                              electric fields arising due to this separation causes significant acceleration of the ions, and the electrons
-                              in opposite directions. However, this leads to further charge separation, deepening the potential well across
-                              leading to the formation of a DL which in turn generates mono-energetic ion beams. The energy required for sustaining
-                              the DL is derived from the trapped electrons in the leading front of the DL. The theory predicts a
-                              drop in the temperature of trapped electrons. This temperature decrease is confirmed by the electron
-                              thermal energy distribution obtained from the simulation.
-                              </br>
-                              <a href="https://www.jstage.jst.go.jp/article/tastj/18/6/18_18.317/_pdf">10.2322/tastj.18.317</a>
-                            </p>
-                          </div>
-                        </div>
-                    </div>
-
-                    <!--=============== PUBLICATION 5 ===============-->
-                    <div class="publications__content swiper-slide">
-                      <!--img src="" alt="">-->
-
-                      <span class="publications__subtitle">2020 | Conference | APS DPP |</span>
-                        <h1 class="publications__title">Interaction Between a Soliton and a Double Layer in a
-                           Traveling Magnetic Field System</h1></br>
-                           <h3 class="publications__authors">Kumar H S, Takahashi M, Kato C, and Ohnishi N</h3>
-
-                        <span class="publications__button">
-                          Read abstract <i class='bx bx-right-arrow-alt'></i>
-                        </span>
-
-                        <div class="publications__model">
-                          <div class="publications__model-content">
-                            <i class='bx bx-x publications__model-close'></i>
-
-                            <h3 class="publications__model-title">Abstract</h3>
-                            <p class="publications__model-description">
-                              The case of a magnetic pulse traveling through a plasma is studied theoretically.
-                              Double layer (DL) and solitons were observed in this system before and it's known that certain
-                              DLs decay by emitting solitons. However, the exact trigger mechanism causing this DL-soliton
-                              transition is not understood yet. Theoretically, this transition can be treated as a DL-soliton interaction.
-                              The soliton and DL KdV equations for the traveling pulse case is derived using the
-                              Reductive Perturbation Method (RPM) by considering trapped and free electrons and free ions.
-                              RPM is used to reduce nonlinear PDEs using asymptotic expansions. This means the interaction term
-                              between the 1st order soliton and the 2nd order DL is usually lost and the system of equations is unclosed.
-                              In this study, the closure is achieved by assuming an ion density distribution in the DL and
-                              back-substituting the DL parameters into the soliton system as a higher order asymptote.
-                              The interaction term thus found is directly proportional to the trapped electron density.
-                              A higher trapped electron density means an increased DL-soliton interaction and a decreased chance of DL decay.
-                              The interaction is also solitary in nature.
-                              </br>
-                              <a href="https://ui.adsabs.harvard.edu/abs/2020APS..DPPJ05002K/abstract">2020APS..DPPJ05002K</a>
-                            </p>
-                          </div>
-                        </div>
-                    </div>
-
-                    <!--=============== PUBLICATION 6 ===============-->
-                    <div class="publications__content swiper-slide">
-                      <!--img src="" alt="">-->
-
-                      <span class="publications__subtitle">2020 | Journal</span>
-                        <h1 class="publications__title">Studies on Supersonic Cold Spray Deposition of
-                          Microparticles using a Bell-Type Nozzle</h1></br>
-                          <h3 class="publications__authors">Kumar H S, Prasad K G, Kothurkar N K, and Srikrishnan A R</h3>
-
-                        <span class="publications__button">
-                          Read abstract <i class='bx bx-right-arrow-alt'></i>
-                        </span>
-
-                        <div class="publications__model">
-                          <div class="publications__model-content">
-                            <i class='bx bx-x publications__model-close'></i>
-
-                            <h3 class="publications__model-title">Abstract</h3>
-                            <p class="publications__model-description">
-                              Cold spray deposition of micro-particles using a supersonic nozzle is studied using the numerical
-                              simulation of the turbulent flow field. A bell-type nozzle geometry is used for injecting the cold
-                              particle spray at supersonic velocity. The impact of driver gas pressure, temperature and particle
-                              size on critical deposition parameters is studied for transverse and axial injection. The results of
-                              the study show that particle velocity at impact is higher for axial injection in comparison to that
-                              for transverse injection under similar conditions. The approach of utilizing bell type nozzles for
-                              spray deposition is found to be beneficial with regard to the compactness of the system as well as
-                              the axial alignment of the spray.
-                            </br>
-                            <a href="https://doi.org/10.1016/j.surfcoat.2019.125244">https://doi.org/10.1016/j.surfcoat.2019.125244</a>
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                  </div>
-                  <!-- Swiper Pagination -->
-                  <div class="swiper-pagination"></div>
                 </div>
-              </div>
-            </section>
-
-            <!--=============== CONTACT ===============-->
-            <section class="contact section" id="contact">
-              <!-- <span class="section__subtitle">Get in touch</span> -->
-              <h2 class="section__title">Contact Me</h2>
-
-              <div class="contact__container container grid">
-                <div class="contact__content">
-                  <div class="contact__info">
-
+            </div>
+        </section>
+        
+        <!--=============== CONTACT ===============-->
+        <section class="contact section" id="contact">
+            <div class="container">
+                <h2 class="section__title" data-i18n="contact.title">Get In Touch</h2>
+                <p class="section__description" data-i18n="contact.subtitle">
+                    Interested in collaboration or want to discuss simulation engineering, HPC systems, or software development?
+                </p>
+                
+                <div class="contact__container">
                     <div class="contact__card">
-                      <i class="bx bx-mail-send contact__card-icon"></i>
-                      <h3 class="contact__card-title">Email</h3>
-                      <span class="contact__card-data">kumar.harihara.sudhan.r7@alumni.tohoku.ac.jp</span>
-
-                      <a href="mailto:kumar.harihara.sudhan.r7@dc.tohoku.ac.jp" target="_blank" class="contact__button">
-                        Write me <i class="bx bx-right-arrow-alt contact__button-icon"></i>
-                      </a>
+                        <i class='bx bx-envelope contact__icon'></i>
+                        <h3 class="contact__title" data-i18n="contact.email">Email</h3>
+                        <a href="mailto:your.email@example.com" class="contact__link">
+                            <span data-i18n="contact.emailAction">Send Message</span> <i class='bx bx-right-arrow-alt'></i>
+                        </a>
                     </div>
-
-                  </div>
+                    
+                    <div class="contact__card">
+                        <i class='bx bxl-linkedin-square contact__icon'></i>
+                        <h3 class="contact__title">LinkedIn</h3>
+                        <a href="https://www.linkedin.com/in/harihara-sudhan369/" target="_blank" class="contact__link">
+                            <span data-i18n="contact.connect">Connect</span> <i class='bx bx-right-arrow-alt'></i>
+                        </a>
+                    </div>
+                    
+                    <div class="contact__card">
+                        <i class='bx bxl-github contact__icon'></i>
+                        <h3 class="contact__title">GitHub</h3>
+                        <a href="https://github.com/hari369-cmd" target="_blank" class="contact__link">
+                            <span data-i18n="contact.viewProjects">View Projects</span> <i class='bx bx-right-arrow-alt'></i>
+                        </a>
+                    </div>
                 </div>
-              </div>
-
-            </section>
-        </main>
-
-        <!--=============== FOOTER ===============-->
-        <footer class="footer">
-          <div class="footer__container container">
-            <h1 class="footer__title">Hari</h1>
-
-            <ul class="footer__list">
-              <li>
-                <a href="#about" class="footer__link">About</a>
-              </li>
-              <li>
-                <a href="#skills" class="footer__link">Skills</a>
-              </li>
-              <li>
-                <a href="#qualification" class="footer__link">Qualifications</a>
-              </li>
-              <li>
-                <a href="#publications" class="footer__link">Publications</a>
-              </li>
-              <li>
-                <a href="#" class="footer__link">Top</a>
-              </li>
-            </ul>
-
-            <span class="footer__copy">
-              &#169; Hari. All rights reserved.
-            </span>
-          </div>
-        </footer>
-
-        <!--=============== SCROLLREVEAL ===============-->
-        <script src="assets/js/scrollreveal.min.js"></script>
-
-        <!--=============== SWIPER JS ===============-->
-        <script src="./assets/js/swiper-bundle.min.js"></script>
-
-        <!--=============== MIXITUP FILTER ===============-->
-        <script src=""></script>
-
-        <!--=============== MAIN JS ===============-->
-        <script src="./assets/js/main.js"></script>
-    </body>
+            </div>
+        </section>
+    </main>
+    
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+        <div class="footer__container container">
+            <p class="footer__text" data-i18n="footer.copyright">
+                © 2026 Hari. A living, active entropy generator since 1996.
+            </p>
+        </div>
+    </footer>
+    
+    <!--=============== TRANSLATION DATA ===============-->
+    <script>
+        const translations = {
+            en: {
+                nav: {
+                    home: "Home",
+                    work: "Work",
+                    projects: "Projects",
+                    research: "Research",
+                    contact: "Contact"
+                },
+                home: {
+                    greeting: "Hello, I'm",
+                    tagline: "I like creating mathematical models",
+                    description: "Simulation engineer building HPC performance simulators, developing computational physics models, and creating web applications. I bridge the worlds of theoretical physics, high-performance computing, and full-stack development.",
+                    viewWork: "View Work",
+                    projects: "Projects",
+                    blog: "Read Blog"
+                },
+                work: {
+                    title: "My Professional Experience",
+                    subtitle: "From theoretical plasma physics to production HPC systems",
+                    present: "Present",
+                    job1: {
+                        title: "HPC Performance Simulator Development",
+                        description: "Designed and developed a performance simulation framework to analyze interactions between CAE software (50+ computational modules) and HPC systems. Built mathematical models to quantitatively evaluate execution performance, scalability, and bottlenecks.",
+                        result1: "Identified performance issues for major automotive client",
+                        result2: "Reduced AWS costs by millions of yen and saved months of debugging effort"
+                    },
+                    job2: {
+                        title: "Multi-Scale Plasma Simulation Research",
+                        description: "Developed novel numerical methods integrating molecular dynamics and plasma dynamics simulations to model laser-graphene interactions. Conducted large-scale HPC computations and validated results with experimental data.",
+                        result1: "Published in Scientific Reports and other international journals",
+                        result2: "Supervised 3 undergraduate and 1 graduate student researchers"
+                    }
+                },
+                projects: {
+                    title: "Featured Projects",
+                    featured: "Featured",
+                    slotify: {
+                        subtitle: "Web Service for Smart Scheduling",
+                        description: "A full-stack web application I designed, developed, and launched to help users manage their time efficiently. Handles the complete product lifecycle from planning to deployment and user support.",
+                        users: "~2,000 monthly active users",
+                        improvements: "Continuous feature improvements based on user analytics",
+                        tag2: "Product Design",
+                        tag3: "Business Management",
+                        visit: "Visit Site"
+                    },
+                    hpc: {
+                        title: "HPC Performance Modeling",
+                        description: "Mathematical models for predicting CAE software performance on various HPC architectures. Includes communication pattern analysis and scalability evaluation.",
+                        tag2: "Performance Analysis"
+                    },
+                    plasma: {
+                        title: "Plasma-MD Coupling Framework",
+                        description: "Integrated simulation framework combining molecular dynamics with plasma dynamics for multi-scale physics modeling on HPC clusters.",
+                        tag3: "Scientific Computing"
+                    }
+                },
+                skills: {
+                    title: "Technical Expertise",
+                    core: {
+                        title: "Core Skills",
+                        skill1: "Numerical Simulation",
+                        skill2: "Mathematical Modeling",
+                        skill3: "Algorithm Design",
+                        skill4: "Performance Analysis",
+                        skill5: "HPC & Parallel Computing",
+                        skill6: "Data Analysis & Visualization"
+                    },
+                    programming: {
+                        title: "Programming",
+                        parallel: "Parallel Computing",
+                        gui: "GUI Development"
+                    },
+                    tools: {
+                        title: "Software & Tools",
+                        version: "Version Control"
+                    }
+                },
+                publications: {
+                    title: "Selected Publications",
+                    subtitle: "Research spanning plasma physics, high-energy density physics, and topological analysis",
+                    view: "View Paper",
+                    count: "8 journal papers · 5 conference presentations",
+                    viewAll: "View All Publications"
+                },
+                contact: {
+                    title: "Get In Touch",
+                    subtitle: "Interested in collaboration or want to discuss simulation engineering, HPC systems, or software development?",
+                    email: "Email",
+                    emailAction: "Send Message",
+                    connect: "Connect",
+                    viewProjects: "View Projects"
+                },
+                footer: {
+                    copyright: "© 2026 Hari. A living, active entropy generator since 1996."
+                }
+            },
+            jp: {
+                nav: {
+                    home: "ホーム",
+                    work: "経歴",
+                    projects: "プロジェクト",
+                    research: "研究",
+                    contact: "連絡"
+                },
+                home: {
+                    greeting: "はじめまして",
+                    tagline: "数理モデルを作るのが好きです",
+                    description: "HPC性能シミュレータを開発し、計算物理モデルを構築し、Webアプリケーションを作成するシミュレーションエンジニア。理論物理学、高性能計算、フルスタック開発の世界を橋渡しします。",
+                    viewWork: "経歴を見る",
+                    projects: "プロジェクト",
+                    blog: "ブログを読む"
+                },
+                work: {
+                    title: "職務経歴",
+                    subtitle: "理論プラズマ物理学から本番HPC システムまで",
+                    present: "現在",
+                    job1: {
+                        title: "HPC性能シミュレータ開発",
+                        description: "CAEソフトウェア（50以上の計算モジュール）とHPCシステムの相互作用を解析する性能シミュレーションフレームワークを設計・開発。実行性能、スケーラビリティ、ボトルネックを定量的に評価する数理モデルを構築。",
+                        result1: "大手自動車メーカーの性能問題を事前に特定",
+                        result2: "数百万円のAWSコスト削減と数ヶ月のデバッグ工数削減に貢献"
+                    },
+                    job2: {
+                        title: "マルチスケールプラズマシミュレーション研究",
+                        description: "レーザーとグラフェンの相互作用をモデル化するため、分子動力学とプラズマ動力学シミュレーションを統合する新しい数値手法を開発。大規模HPC計算を実施し、実験データで結果を検証。",
+                        result1: "Scientific Reportsなどの国際誌に論文掲載",
+                        result2: "学部生3名・修士1名の研究指導を完遂"
+                    }
+                },
+                projects: {
+                    title: "注目プロジェクト",
+                    featured: "注目",
+                    slotify: {
+                        subtitle: "スマートスケジューリングのWebサービス",
+                        description: "時間管理を効率化するため、企画・設計・開発・運用まで一貫して担当したフルスタックWebアプリケーション。企画から展開、ユーザーサポートまで、プロダクトのライフサイクル全体を管理。",
+                        users: "月間約2,000人のアクティブユーザー",
+                        improvements: "ユーザー分析に基づく継続的な機能改善",
+                        tag2: "プロダクトデザイン",
+                        tag3: "ビジネス管理",
+                        visit: "サイトを見る"
+                    },
+                    hpc: {
+                        title: "HPC性能モデリング",
+                        description: "様々なHPCアーキテクチャ上でのCAEソフトウェア性能を予測する数理モデル。通信パターン分析とスケーラビリティ評価を含む。",
+                        tag2: "性能解析"
+                    },
+                    plasma: {
+                        title: "プラズマ・分子動力学結合フレームワーク",
+                        description: "HPCクラスタ上でマルチスケール物理モデリングを行うため、分子動力学とプラズマ動力学を組み合わせた統合シミュレーションフレームワーク。",
+                        tag3: "科学計算"
+                    }
+                },
+                skills: {
+                    title: "技術的専門性",
+                    core: {
+                        title: "コアスキル",
+                        skill1: "数値シミュレーション",
+                        skill2: "数理モデリング",
+                        skill3: "アルゴリズム設計",
+                        skill4: "性能解析",
+                        skill5: "HPC・並列計算",
+                        skill6: "データ解析・可視化"
+                    },
+                    programming: {
+                        title: "プログラミング",
+                        parallel: "並列計算",
+                        gui: "GUI開発"
+                    },
+                    tools: {
+                        title: "ソフトウェア・ツール",
+                        version: "バージョン管理"
+                    }
+                },
+                publications: {
+                    title: "主要論文",
+                    subtitle: "プラズマ物理学、高エネルギー密度物理学、トポロジカル解析にわたる研究",
+                    view: "論文を見る",
+                    count: "学術誌論文8報・学会発表5件",
+                    viewAll: "すべての論文を見る"
+                },
+                contact: {
+                    title: "お問い合わせ",
+                    subtitle: "シミュレーション工学、HPCシステム、ソフトウェア開発についてコラボレーションや議論にご興味がありますか？",
+                    email: "メール",
+                    emailAction: "メッセージを送る",
+                    connect: "つながる",
+                    viewProjects: "プロジェクトを見る"
+                },
+                footer: {
+                    copyright: "© 2026 Hari. 1996年からエントロピーを生成し続けています。"
+                }
+            }
+        };
+    </script>
+    
+    <!--=============== MAIN JS ===============-->
+    <script src="./assets/js/main.js"></script>
+</body>
 </html>
